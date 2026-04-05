@@ -1,0 +1,5 @@
+Material: dopamine_uric
+Data directory: ./data/dopamine_uric
+Concentrations: [-11, -10, -9, -8, -7, -6]
+Epochs: 200
+N_PCA: 8

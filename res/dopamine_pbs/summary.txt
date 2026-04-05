@@ -1,0 +1,5 @@
+Material: dopamine_pbs
+Data directory: ./data/dopamine_pbs
+Concentrations: [-11, -10, -9, -8, -7, -6, -5, -4]
+Epochs: 200
+N_PCA: 8

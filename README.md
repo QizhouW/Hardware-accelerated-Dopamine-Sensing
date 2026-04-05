@@ -8,17 +8,20 @@ By integrating engineered **light-scattering membranes** and **optical accelerat
 * **Ultra-High Sensitivity:** Detection limits down to $10^{-8}$ mM for physiological neurotransmitters.
 * **Additive-Free Platform:** No chemical additives required, ensuring minimal interference in complex biological matrices (e.g., uric and ascorbic acid).
 
-## 🚀 Quick Start
-*(Note: Instructions below assume a standard Python environment with PyTorch support for the optical accelerator models)*
-
 ### Prerequisites
 * Python 3.8+
-* Pytorch 2.0+
+* Tensorflow 2.0+
+* sklearn 1.5+
+
 
 ### Installation
 ```bash
-git clone [https://github.com/YourUsername/Dopamine-Detection-Camera.git](https://github.com/YourUsername/Dopamine-Detection-Camera.git)
-cd Dopamine-Detection-Camera
-pip install -r requirements.txt
+git clone https://github.com/QizhouW/Hardware-accelerated-Dopamine-Sensing.git
+```
 
-### Reference
+### Train
+Set up EXPERIMENT_CONFIGS in run.py, then
+
+```bash
+python run.py
+```
